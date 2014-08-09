@@ -1,0 +1,7 @@
+.classpath
+bin/
+build/
+target/
+.project
+.settings/
+src/com/rmwebfx/recaptcha/TestClass.java

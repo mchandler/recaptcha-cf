@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="reCaptcha (GK)">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/websites/recaptcha/rmweb-recaptcha.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.rmwebfx.recaptcha.TestClass"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/websites/recaptcha/bin"/>
+            <!--<zipfileset excludes="META-INF/*.SF" src="C:/ColdFusion9/wwwroot/WEB-INF/lib/cfx.jar"/>-->
+            <zipfileset excludes="META-INF/*.SF" src="C:/websites/recaptcha/recaptcha4j-0.0.7.jar"/>
+        </jar>
+    </target>
+</project>
